@@ -1,0 +1,92 @@
+@font-face {
+    font-family: SHARJA;
+    src: url(fonts/SHARJAH\ .OTF);
+}
+
+body{
+    font-family:SHARJA ;
+    background-image: url(img/Bg.jpeg);
+    color: brown;
+    font-size: medium;
+    overflow: hidden;
+}
+.logo {
+    display:flex;
+    justify-content: center;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    border:none;
+    background-color: brown;
+    height: 200px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right:15px;
+    border-radius: 5px;
+}
+.btn{
+    border: none;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: transparent;
+    transition: 0.5s;
+
+
+}
+img{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 5px;
+}
+h6{
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    margin: 10px;
+}
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+.fgroup{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #8b2f2f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+   
+}
+
+
+
